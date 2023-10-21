@@ -1,4 +1,3 @@
-import path from "path";
 import { type Configuration } from "webpack";
 import buildLoaders from "./config/build/buildLoaders";
 import buildPlugins from "./config/build/buildPlugins";
@@ -13,9 +12,8 @@ export default (env: Record<string, any>): Configuration => {
     mode,
     entry: "./src/index.tsx",
     output: {
-      path: path.resolve(__dirname, "dist"),
-      filename: "[name].[hash].js",
-      clean: true
+      path: __dirname + '/build',
+      filename: "bundle.js"
     },
     module: {
       rules: buildLoaders(isDev)
