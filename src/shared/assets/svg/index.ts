@@ -1,0 +1,12 @@
+export { IconLamp } from "./IconLamp";
+export { IconLaptop } from "./IconLaptop";
+export { IconTarger } from "./IconTarger";
+export { IconGoogle } from "./IconGoogle";
+export { IconYandex } from "./IconYandex";
+export { IconFacebook } from "./IconFacebook";
+export { IconDocuments } from "./IconDocuments";
+export { IconPaper } from "./IconPaper";
+export { IconLock } from "./IconLock";
+export { IconBurgerMenu } from "./IconBurgerMenu";
+export { SearchBg } from "./SearchBg";
+export { AuthBg } from "./AuthBg";

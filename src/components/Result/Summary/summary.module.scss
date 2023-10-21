@@ -1,0 +1,32 @@
+.title {
+  font-family: var(--font-main);
+  font-size: 30px;
+  margin-bottom: 17px;
+}
+
+.counter {
+  display: block;
+  color: #949494;
+  font-size: 18px;
+  margin-bottom: 27px;
+}
+
+@media screen and (max-width: 1439px)  {
+  .title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .counter {
+    font-size: 18px;
+    margin-bottom: 34px;
+    text-align: center;
+  }
+
+  .histogram {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+  }  
+}

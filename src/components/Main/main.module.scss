@@ -1,0 +1,29 @@
+.hero {
+  margin-top: 69px;
+  margin-bottom: 100px;
+}
+
+.advantage {
+  margin-bottom:  100px;
+}
+
+.tariff {
+  margin-bottom:  118px;
+}
+
+
+.hero {
+  margin-top: 69px;
+
+}
+
+@media screen and (max-width: 1149px) {
+  .hero {
+    margin-top: 20px;
+    margin-bottom: 55px;
+  }
+
+  .advantage {
+    margin-bottom:  80px;
+  }
+}

@@ -1,0 +1,1 @@
+export { TarrifCard, type ITariffCard } from "./TarrifCard";

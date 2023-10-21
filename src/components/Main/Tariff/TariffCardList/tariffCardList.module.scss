@@ -1,0 +1,13 @@
+.card-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 37px;
+}
+
+@media screen and (max-width: 1149px) {
+  .card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+  }
+}

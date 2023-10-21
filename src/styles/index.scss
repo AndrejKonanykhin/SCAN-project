@@ -1,0 +1,82 @@
+@import "./variables.scss";
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+  font-family: "ferry";
+  src: url("./fonts/Ferry.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select,
+a {
+  margin: 0;
+  font: inherit;
+}
+
+button {
+  padding: 0.3rem 0.7rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+  &:hover {
+    filter: saturate(2);
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  font-weight: 400px;
+}
+
+#root {
+  display: flex;
+  height: 100%;
+}
+
+.layout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 60px;
+  margin: 0 auto
+}
+
+@media screen and (max-width: 1149px) {
+  .container {
+    padding: 0 14px;
+  }
+}

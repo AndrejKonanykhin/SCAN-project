@@ -1,0 +1,53 @@
+.header { 
+ min-height: 93px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  min-height: 93px;
+}
+
+.logo {
+  margin-right: 401px;
+}
+
+.panel {
+  margin-left: auto;
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 1439px) {
+  .logo {
+    margin-right: 0px;
+  }
+  
+  .nav {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 739px) {
+  
+  .logo {
+    margin-right: 0px;
+  }
+  
+  .panel,
+  .nav {
+    display: none;
+  }
+
+  .panel-user{
+    display: block;
+  }
+  
+  .burger {
+    display: block;
+    margin-left: auto;
+    padding-right: 12px;
+  }
+}

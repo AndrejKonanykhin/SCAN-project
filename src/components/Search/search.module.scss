@@ -1,0 +1,140 @@
+.search {
+  margin-top: 70px;
+  margin-bottom: 64px;
+  display: grid;
+  grid-template-columns: 1fr 0.25fr;
+  grid-template-rows: auto auto;
+  row-gap: 41px;
+}
+
+.title {
+  margin-bottom: 25px;
+  font-family: var(--font-main);
+  font-size: 40px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.documents-icon {
+  align-self: end;
+  width: 406px;
+  height: 120px;
+}
+
+.form-container {
+  padding: 21px 39px 32px 24px;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  transform: translateX(-7px);
+}
+
+.bg {
+  align-self: end;
+  margin-left: 73px;
+  width: 442px;
+  height: 470px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+@media screen and (max-width: 1439px) {
+  .search {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    row-gap: 21px;
+  }
+
+  .title {
+    margin-bottom: 19px;
+    font-size: 28px;
+  }
+  
+  .description {
+    font-size: 18px;
+    max-width: 70%;
+  }
+
+  .documents-icon {
+    width: 300px;
+    height: 80px;
+  }
+  
+  .form-container {
+    width: fit-content;
+    padding: 24px 26px 37px 14px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    transform: translateX(0px);
+  }
+  
+  .bg {
+    margin-left: 0px;
+    width: 360px;
+    height: 403px;
+  }
+}
+
+@media screen and (max-width: 1249px) {
+  .search {
+    justify-content: center;
+  }
+
+  .bg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 939px) {
+  .search {
+    grid-template-columns: auto;
+  }
+
+  .documents-icon {
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    width: 58px;
+    height: 72px;
+  }
+
+  .bg {
+    display: block;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+  }
+}
+
+@media screen and (max-width: 939px) {
+  .search {
+    grid-template-columns: auto;
+  }
+
+  .documents-icon {
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    width: 58px;
+    height: 72px;
+  }
+
+  .bg {
+    display: block;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+  }
+}

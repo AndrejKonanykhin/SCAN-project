@@ -1,0 +1,62 @@
+.advantage {
+  padding-bottom: 645px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
+
+.title {
+  font-family: var(--font-main);
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+.carousel-container {
+  margin-right: -29px;
+  margin-left: -39px;
+}
+
+@media screen and (max-width: 1149px) {
+  .advantage {
+    padding-bottom: 472px;
+    background-size: 891px 392px;
+  }
+
+  .title {
+    max-width: 280px;
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .carousel-stage {
+    margin-left: 20px;
+  }
+  
+  .carousel-container {
+    margin-right: -4px;
+    margin-left: -14px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .advantage {
+    padding-bottom: 472px;
+    background-size: 891px 392px;
+  }
+
+  .title {
+    max-width: 280px;
+    font-size: 28px;
+    line-height: 33px;
+  }
+
+  .carousel-stage {
+    min-width: 298px;
+    max-width: 298px;
+    margin-left: 20px;
+  }
+  
+  .carousel-container {
+    margin-right: -4px;
+    margin-left: -14px;
+  }
+}

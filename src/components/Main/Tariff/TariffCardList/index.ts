@@ -1,0 +1,1 @@
+export { TariffCardList } from "./TariffCardList";
